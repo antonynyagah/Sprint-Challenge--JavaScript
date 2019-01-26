@@ -213,6 +213,7 @@ console.log(populationTotal);
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+
 zooAnimals.forEach((element) =>{return animalNames.push(`Name: ${element.animal_name}, Scientific: ${element.scientific_name}`);})
 
 let lowerCaseCB = zooAnimals.map((element)=>{return element.animal_name.toLowerCase();})
